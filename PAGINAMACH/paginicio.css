@@ -1,0 +1,310 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+/*ELEMENTOS EN EL CENTRO*/
+.redesso{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #042C5C;
+    padding: 10px;
+    text-decoration: none;
+}
+.correo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.correo img {
+    width: 24px;
+    margin-right: 5px;
+}
+.redesso .correo{
+    margin: 15px;
+}
+
+.redesso .redes{
+    margin-right: 2.5px;
+
+}
+.redesso h2{
+    font-family: sans-serif;
+    font-size: small;
+    color: white;
+    font-weight: normal;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+/*CAMBIO DE ORDEN*/
+.correo {
+    order: 1;
+}
+.redes {
+    order: 2; 
+}
+/*IMÁGENES de la NAV*/
+.derecha{
+    width: 100px;
+    height: 100px;
+}
+.izquierda{
+    width: 100px;
+    height: 100px;
+}
+
+/*IMÁGENES de redes sociales*/
+.redesso img{
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 11.6;
+    margin-bottom: 11.6;
+}
+/*PROPIEDADES DEL NAV*/
+.barranav{
+    height: 100px;
+    margin: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: lighter;
+    justify-content: center;
+    flex-grow: 1;
+    text-decoration: none;
+    
+}
+p a{
+    text-decoration: underline;
+    color: white;
+}
+a:hover{
+    font-weight: bold;
+    border-radius: 5px;
+    transition: ease-in-out;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+a:not(:hover) {
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out; 
+    /* TransicióN ESO TILIN */
+}
+
+.linea {
+    width: 1px; 
+    height: 20px; 
+    background-color: #042c5c; 
+    margin: 0 15px; /* Ajusta DE IMAGEN PQ LUEGO SE TE OLVIDA NACO */
+
+}
+
+
+img{
+    margin-left: 15px;
+}
+.barranav {
+    display: flex;
+}
+
+.nav {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    margin: 0 10px;
+}
+
+section{
+    width: 100%;
+    height: 400px;
+}
+
+.d-item{
+    height: 500px;
+}
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    margin: 0;
+}
+
+footer{
+    background-color: #042c5c;
+    height: fit-content;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.info .aizq{
+    width: 33.3%;
+    float: left;
+    background-color: #042C5C;
+    border: #042c5c;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ 
+.info .adere{
+    width: 33.3%;
+    float: left;
+    background-color: #042C5C;
+    border: #042c5c;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.info .amedi{
+    width: 33.3%;
+    float: left;
+    background-color: #042C5C;
+    border: #042c5c;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.aizq .dato1{
+    text-align: left;
+    margin: 20px;
+    height: fit-content;
+}
+
+.adere .dato2{
+    text-align: center;
+    margin: 20px;
+    height: fit-content;
+}
+
+.amedi .dato3{
+    text-align: right;
+    margin: 20px;
+    height: fit-content;
+}
+.dato2 h2{
+    color: #de964e;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.dato2 p{
+    font-size: 15px;
+}
+.dato1 h2{
+    color: #de964e;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.dato1 p{
+    font-size: 15px;
+}
+
+.dato3 h2{
+    color: #de964e;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.dato3 p{
+    font-size: 15px;
+}
+
+.welc{
+    text-align: center;
+    font-family: "Anton", sans-serif;
+}
+
+.carousel-item button{
+    background-color: #de964e;
+    border: #de964e;
+    
+}
+a:hover{
+    background-color: #042C5C;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: ease-in-out;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+a:not(:hover) {
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out; /* Transición para background ESO TILIN 2 */
+}
+.welcc{
+    display: flex;
+    justify-content: center;  
+}
+.welc{
+    background-color: white;
+}
+.welcc .welc1{
+    width: 70%;
+    float: left;
+    background-color: #A93661;
+    border: #A93661;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ 
+.welcc .welc2{
+    width: 45%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.welcc1 h2{
+    text-align: left;
+    font-weight: normal;
+    font-family: "Poetsen One", sans-serif;
+}
+.welcc1 p{
+    text-align: justify;
+    font-weight: normal;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn{
+    background-color: #de964e;
+}
+
+.autor{
+    text-align: left;
+    font-style: italic;
+}

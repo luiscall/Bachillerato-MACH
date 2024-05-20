@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+nav{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #432E38;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.carrusel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin-right: 30px;
+  }
+
+.elemento {
+    flex: 1 0 auto;
+    margin: 0 60px;
+    width: 300px;
+    height: 300px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+nav a{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.nav:hover{
+    background-color: #9A494A;
+    color: white;
+    font-size: 30px;
+    transition: .5s;
+}
+body {
+    color: #fff;
+    background: linear-gradient(45deg, red, #7A71D1, #432E38, #171A32);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-out infinite;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+h1 {
+    margin: 15px;
+    text-align: left;
+    font-family: Comic Sans MS;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    text-shadow: -1px 0 #171A32, 0 1px #171A32, 1px 0 #171A32, 0 -1px #171A32, -2px 2px 0 #171A32, 2px 2px 0 #171A32, 1px 1px #171A32, 2px 2px #171A32, 3px 3px #171A32, 4px 4px #171A32, 5px 5px #171A32;
+}
+
+button {
+    background-color: #171A32;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+button a {
+    font-size: 20px;
+    font-family: fantasy;
+    color: white;
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}

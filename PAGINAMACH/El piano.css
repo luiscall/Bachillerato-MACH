@@ -1,0 +1,227 @@
+/*
+
+*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    text-align: left;
+    background-image: url("pianoprueba.jpg");
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+}
+
+.container h4{
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 0.2em grey, 0 0 0.2em grey,
+    0 0 0.2em grey;
+    padding-left: 50px;
+}
+
+.container h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 0.2em grey, 0 0 0.2em grey,
+    0 0 0.2em grey;
+    padding-left: 50px;
+    padding-top: calc(1000px/3)
+ }
+
+nav{
+    margin: 2.52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #432E38;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+nav a{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    color: white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.nav:hover{
+    background-color: #9A494A;
+    color: white;
+    font-size: 30px;
+    transition: .5s;
+}
+
+main{
+    margin: 1.5px;
+    padding: 20px;
+}
+
+article{
+    background-color: #EED6AA;
+    color: #171A32;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+main section article ul li{
+    text-decoration: none;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: justify;
+}
+
+
+ul li{
+    text-align: justify;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+img{
+    width: 350px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+section{
+    width: 60%;
+    height: fit-content;
+    margin-right: 1%;
+    float: left;
+    background-color: #432E38;
+    box-shadow: 5px 5px #473C62;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+aside{
+    width: 39%;
+    height: 7235px;
+    float: left;
+    background-color: #432E38;
+    color: white;
+    padding: auto;
+    box-shadow: 5px 5px #473C62;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+.dato{
+    background-color: #EED6AA;
+    color: #432E38;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+}
+.piepag{
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #432E38;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    clear: both;
+    
+}
+.piepag nav ul li{
+    text-decoration: none;
+    display: block;
+}
+.desped{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+section article a{
+    text-decoration: none;
+    color: #171A32;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+.ilus{
+    justify-content: center;
+    display: flex;
+}
+.ilus2{
+    justify-content: center;
+    display: flex;
+}
+.daim{
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.no{
+    background-color: #EED6AA;
+    color: #171A32;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px, 10px, 10px;
+    width: 100%;
+    box-shadow: 5px 5px #473C62;
+}
+.p{
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-right: 25px;
+}
+.p p{
+    text-align: center;
+}
+.img1{
+    width: 500px;
+    height: 340px;
+    margin-right: 25px;
+}
+.facebook{
+    width: 70px;
+    height: 70px;
+}
+
+.instagram{
+    width: 70px;
+    height: 70px;
+}
+
+.whatsapp{
+    width: 70px;
+    height: 70px;
+}
+
+.home{
+    width: 70px;
+    height: 70px;
+}
+
+.redes a:hover{
+    filter: opacity(.5);
+}

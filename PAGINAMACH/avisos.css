@@ -1,0 +1,293 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, .mano{
+    background-color: #A93661;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-family: "Poetsen One", sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Estilos de los avisos */
+.avisos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.avisos article {
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.avisos article p{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.avisos article h2 {
+    margin-top: 0;
+    color: #042C5C;
+}
+
+.botones a{
+    color: black;
+    text-decoration: none;
+}
+#boton{
+    background-color: #A93661;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    height: 10%;
+    width: 20%;
+    border: #A93661;
+    font-weight: normal;
+    font-family: "Poetsen One", sans-serif;
+    font-size: medium;
+    margin: 3%;
+}
+#boton:hover{
+    background-color: #de964e;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+/*ELEMENTOS EN EL CENTRO*/
+.redesso{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #042C5C;
+    padding: 10px;
+}
+.correo a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.correo img {
+    width: 24px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 5px; /* Ajusta el espacio entre la imagen y el texto */
+}
+.redesso .correo{
+    margin: 15px;
+}
+
+.redesso .redes{
+    margin-right: 2.5px;
+
+}
+.redesso h2{
+    font-family: sans-serif;
+    font-size: small;
+    color: white;
+    font-weight: normal;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: underline;
+    color: white;
+}
+/*CAMBIO DE ORDEN*/
+.correo {
+    order: 1;
+}
+.redes {
+    order: 2; 
+}
+/*IMÁGENES de la NAV*/
+.derecha{
+    width: 100px;
+    height: 100px;
+}
+.izquierda{
+    width: 100px;
+    height: 100px;
+}
+
+/*IMÁGENES de redes sociales*/
+.redesso img{
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 11.6;
+    margin-bottom: 11.6;
+}
+/*PROPIEDADES DEL NAV*/
+.barranav{
+    height: 100px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: lighter;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    flex-grow: 1;
+}
+a:hover{
+    background-color: #042C5C;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: ease-in-out;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+a:not(:hover) {
+    /* Estilos cuando el cursor no está sobre el enlace */
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out; /* Transición para background-color y color */
+}
+
+
+.linea {
+    width: 1px; 
+    height: 20px; 
+    background-color: #042c5c; 
+    margin: 0 15px; /* Ajusta el margen entre la línea y los elementos del menú */
+
+}
+
+
+img{
+    margin-left: 15px;
+}
+.barranav {
+    display: flex;
+}
+
+.nav {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    margin: 0 10px;
+}
+
+.botones{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+footer{
+    background-color: #042c5c;
+    height: fit-content;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+}
+
+.info .aizq{
+    width: 33.3%;
+    float: left;
+    background-color: #042C5C;
+    border: #042c5c;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+ 
+.info .adere{
+    width: 33.3%;
+    float: left;
+    background-color: #042C5C;
+    border: #042c5c;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.info .amedi{
+    width: 33.3%;
+    float: left;
+    background-color: #042C5C;
+    border: #042c5c;
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.aizq .dato1{
+    text-align: left;
+    margin: 20px;
+    height: fit-content;
+}
+
+.adere .dato2{
+    text-align: center;
+    margin: 20px;
+    height: fit-content;
+}
+
+.amedi .dato3{
+    text-align: right;
+    margin: 20px;
+    height: fit-content;
+}
+.dato2 h2{
+    color: #de964e;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.dato2 p{
+    font-size: 15px;
+}
+.dato1 h2{
+    color: #de964e;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.dato1 p{
+    font-size: 15px;
+}
+
+.dato3 h2{
+    color: #de964e;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.dato3 p{
+    font-size: 15px;
+}
+
+.regis{
+    color: black;
+    font-style: italic;
+}
+
